@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成为昨日的明天</title>
+    <script src="./spine-player.js"></script>
+    <style type="text/css">
+        #player-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div id="bg">
+    <div id="player-container">
+    </div>
+</div>
+
+
+<script>
+    // 初始化SpinePlayer
+    const player1 = new spine.SpinePlayer("player-container", {
+        jsonUrl: "./3.7kv.json",
+        atlasUrl: "./3.7kv.atlas",
+        animation: "animation",
+        showControls: false,
+        showLoading: false,
+        alpha: true,
+        viewport: {
+            x: -900,
+            y: -200,
+            width: 1600,
+            height: 600,
+            debugRender: false,
+        },
+        premultipliedAlpha: false
+    });
+</script>
+</body>
+</html>
