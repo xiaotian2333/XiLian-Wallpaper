@@ -1,4 +1,4 @@
-# 昔涟动态壁纸
+# 昔涟动态壁纸：成为昨日的明天
 
 昔涟动态壁纸，基于此[活动页](https://act.mihoyo.com/puzzle/hkrpg/e20251024vesion_1316/index.html)精简
 
@@ -8,7 +8,7 @@
 
 1. 主页面下方点击`打开壁纸`
 2. 点击`从URL打开`
-3. URL填写：`https://XiLian.xt-url.com/XiLian/` ， 名称可随意填写
+3. URL填写：`https://Wallpaper.xt-url.com/XiLian/` ， 名称可随意填写
 4. 点击确定
 
 > 不要使用直播模式，或者可能导致异常
